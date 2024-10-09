@@ -1,0 +1,63 @@
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+body {
+    margin: 0px;
+    background-color: #91C7B1;
+    color: #F1F7ED;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    flex-direction: column;
+}
+
+.gameContainer {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+}
+
+.gridContainer {
+    background-color: #54494B;
+    width: 70%;
+    margin: 2rem 0px 2rem 2rem;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 8px;
+    height: 100%;
+}
+
+.parent div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controlsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+
+button {
+    width: max-content;
+    padding: 2rem;
+}
